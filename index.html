@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player:Music for everyone</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utility.css">
+</head>
+
+<body>
+    <div class="container flex">
+        <div class="left  m-top ">
+            <div class="home font-color rounded  bg-gray  p-1">
+                <div><img class="invert" src="logo.svg" alt=""></div>
+                <ul>
+                    <li><img class="invert" src="home.svg" alt="home">Home</li>
+                    <li><img class="invert" src="search.svg" alt="search">Search</li>
+                </ul>
+            </div>
+            <div class=" left2 font-color rounded bg-gray p-1 m-top ">
+                <div class="libarary">
+                    <div class="libarar">Your Libarary</div>
+                    <div><img class=" plus invert" src="plus.svg" alt=""></div>
+                </div>
+                <div class="songlist ">
+                    <ul>
+
+                    </ul>
+                </div>
+
+                <!-- 
+                <div class="left2 light-gray font-color ">
+                    <div class="fontsize16 p-3 ">Create your first playlist</div>
+                    <div class="fontsize14 p-2">It's easy, we'll help you</div>
+                    <div><button class="btn fontsize14weight700">Create playlist</button></div>
+                    <div class="fontsize16 p-2 ">Let's find some podcasts to follow</div>
+                    <div class="fontsize14 p-2">We'll keep you updated on new episodes</div>
+                    <div><button class="btn fontsize14weight700"><a
+                                href="https://open.spotify.com/genre/podcasts-web">Browse podcasts</a></button></div>
+                </div> -->
+                <footer>
+                    <div class="foot">
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/">
+                                <span>Legal</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.spotify.com/in-en/safetyandprivacy/">
+                                <span>Safety &amp; Privacy Center</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/">
+                                <span>Privacy Policy</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/cookies-policy/">
+                                <span>Cookies</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.spotify.com/in-en/legal/privacy-policy/#s3">
+                                <span>About Ads</span>
+                            </a>
+                        </div>
+
+                        <div>
+                            <a href="https://www.spotify.com/in-en/accessibility/">
+                                <span>Accessibility</span>
+                            </a>
+                        </div>
+                    </div>
+                    <span class="fontsize12" data-encore-id="text"><a
+                            href="https://www.spotify.com/in-en/legal/cookies-policy/"
+                            class="Cookies ">Cookies</a></span>
+                    <div class="earbtt"><button class="btn earbtn font-color "><img class="earth invert" src="earth.svg"
+                                alt="">English</button></div>
+                </footer>
+            </div>
+
+        </div>
+        <div class="right  ">
+            <div class="head  rounded m-top  p-1">
+                <div class="  flex nav font-color">
+                    <img class="invert " width="27px" height="27px" src="arrow-left-5-svgrepo-com.svg" alt="">
+                    <img class="invert " width="27px" height="27px" src="right-arrow-svgrepo-com.svg " alt="">
+                </div>
+                <div class="buttons">
+                    <button class="signupbtn navbtn1">Signup</button>
+                    <button class="loginbtn navbtn2">Log in</button>
+                </div>
+            </div>
+            <div class="playlist bg-gray">
+                <div class="toppart  ">
+                    <div class=" font-color fontsize24weight700 ">Spotify Playlist</div>
+                    <div class="showallbtn fontsize14weight700 ">Show all</div>
+                </div>
+                <div class="cardcontainer">
+                    <div class="card font-color rounded  m-top">
+                        <div class="play"><img src="play-svgrepo-com.svg" alt=""></div>
+                        <img src="coverpage.jpg" alt="">
+                        <h1 class="songname ">Aaya Sher (From "The Paradise") (Telugu)</h1>
+                        <p class="name fontsize14">Anirudh Ravichander,Jangi Reddy,Arjun Chandy,Kasarla Shyam</p>
+                    </div>
+                </div>
+
+
+
+            </div>
+            <div class="playbar">
+                <div class="seekbar">
+                    <div class="circle">
+                    </div>
+                </div>
+                <div class="songdetail">
+                    <div class="songinfo"></div>
+                    <div class="songbtn">
+                        <img id="previous" src="previous.svg" alt="">
+                        <img id="play" src="playsong.svg" alt="">
+                        <img id="next" src="next-svgrepo-com.svg" alt="">
+                    </div>
+                    <div class="songtime"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
